@@ -27,7 +27,7 @@ The `whole.sql` file includes the following key tables:
 ### **1. Clone the Repository**  
 ```sh
 git clone https://github.com/onyxfuzzx/GameStop-Database.git
-cd gamestop-store-management
+cd GameStop-Database
 ```
 ### **2. Import the Database**  
 1. Open MySQL (or any SQL-compatible database).  

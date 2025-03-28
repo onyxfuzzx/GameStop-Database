@@ -23,6 +23,29 @@ The `whole.sql` file includes the following key tables:
 5. **`orderitems`** – Links products to orders, specifying quantities and prices.  
 6. **`inventory`** – Manages stock levels for all products.  
 
+### **2. `questions.sql`** – SQL Queries for Data Analysis  
+This file contains **predefined SQL queries** to extract valuable insights from the database.  
+
+#### **Basic Queries:**  
+- List all customers, products, employees, orders, and order items.  
+- Retrieve product names and prices.  
+- Fetch total order prices and employee positions.  
+
+#### **Subqueries:**  
+- Find customers who have spent more than $100.  
+- Identify products that have been ordered at least once.  
+- Retrieve employees who processed high-value orders (above $500).  
+- Get the names of products in the **Console** category.  
+- Find customers who purchased a **PlayStation 5 Console**.  
+
+#### **Join Queries:**  
+- List all orders with **customer names**.  
+- Retrieve order items along with **product names**.  
+- Fetch orders processed by specific **employees**.  
+- Display orders along with **customer and employee names**.  
+- Show inventory changes with **product and employee details**.  
+
+
 ## **Installation & Setup**  
 ### **1. Clone the Repository**  
 ```sh

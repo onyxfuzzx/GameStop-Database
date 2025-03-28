@@ -33,7 +33,7 @@ cd GameStop-Database
 1. Open MySQL (or any SQL-compatible database).  
 2. Run the following command in the SQL terminal:  
    ```sql
-   SOURCE whole.sql;
+   SOURCE gamestop.sql;
    ```
 3. Verify that all tables are created successfully.  
 
